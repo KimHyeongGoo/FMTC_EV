@@ -1,36 +1,43 @@
-### KETI SW work
-
-#### [rtx 3090 서버 : gpu-3090-mach : ( bigsoft.iptime.org -p 7781)]
-
- 
-
-##### 장고 웹페이지 링크 (keti/keti1234!) : 
-
-- http://bigsoft.iptime.org:8103
-
- 
-
-##### strapi 링크 : 
-
-- http://bigsoft.iptime.org:8102
-
- 
-
-##### NEXTJS 링크 : 
-
-- http://bigsoft.iptime.org:8101
-
-<!--
-**KimHyeongGoo/KimHyeongGoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
+code
+├── 데이터 분석
+│   ├── 급속충전구간 분석
+│   │   ├── charging_analysis_per_charging_sections.ipynb
+│   │   └── data
+│   ├── 방전구간 분석
+│   │   ├── data
+│   │   └── discharging_speed_analysis.ipynb
+│   └── 완속충전구간 분석
+│       ├── charging_analysis_per_charging_sections.ipynb
+│       └── data
+├── 데이터 전처리
+│   ├── 1_전처리
+│   │   ├── data
+│   │   └── preproc.ipynb
+│   ├── 2_충방전구간_분류
+│   │   ├── classify_funcs.py
+│   │   ├── classify_section.ipynb
+│   │   ├── data
+│   │   └── out.zip
+│   ├── 3_환경데이터_병합
+│   │   ├── data
+│   │   ├── data_merge.ipynb
+│   │   └── env_data
+│   │       ├── air_pollution_gangnam
+│   │       ├── traffic_volume
+│   │       └── weather_seoul
+│   └── 4_분석_데이터_추출
+│       ├── data
+│       └── get_statistics.ipynb
+└── 데이터 학습
+    ├── MD_demo_test.ipynb
+    ├── MD_demo_training.ipynb
+    ├── XGBoost_Log_Loss.png
+    ├── XGBoost_importance.png
+    ├── XGBoost_tree.png
+    ├── customized
+    ├── demo_img.png
+    ├── md_column_matching_table.py
+    ├── model
+        └── MD_model.pkl
+```
