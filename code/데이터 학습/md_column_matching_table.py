@@ -1,0 +1,11 @@
+col_matching_table={'MD_data':{'b_soc':'BMS_SOC-Percent',
+                                'b_pack_current':'BMS_HVPackCurrent-A',
+                                'b_pack_volt':'BMS_HVPackVoltage-V',
+                                'b_moter_rpm':'MCU_MotorSpeed-rpm',
+                                'b_modul_1_temp':'BMS_Temp1-C',
+                                'b_modul_2_temp':'BMS_Temp2-C',
+                                'b_cell1_volt':'BMS_Cell_1-V',
+                                'b_max_chargable_power':'BMS_MaxChargablePower-kW',
+                                'b_inverter_capa_volt':'BMS_InverterCapacityVolt-V'
+                                }
+                }
